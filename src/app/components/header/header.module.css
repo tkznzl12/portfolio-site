@@ -1,0 +1,18 @@
+.header_container {
+  height: 60px;
+  background-color: darkgrey;
+  width: 100%;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+}
+
+.header_list {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

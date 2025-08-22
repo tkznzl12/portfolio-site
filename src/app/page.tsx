@@ -1,94 +1,41 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Icon_Github from "./icon/github.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
+        <section className={styles.main_section}>
+          안녕하세요. 프론트엔드 개발자 정수진 입니다.
+        </section>
+        <section className={styles.main_section}>
+          <p>&quot;한 걸음부터, 모든 변화가 시작된다.&quot;</p>
+        </section>
+        <section className={styles.main_section}>
+          <p>경력</p>
+          <pre>신성ICT</pre>
+          <pre>샘랩</pre>
+        </section>
+        <section className={styles.main_section}>프로젝트</section>
       </main>
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        깃허브, 블로그 연동 버튼, 이메일 Icons by Icons8(링크연동하기)
+        <section className={styles.footer_icons}>
+          <Link
+            className={styles.footer_icon}
+            href="https://github.com/tkznzl12"
+          >
+            <Image src="/icon/github.svg" alt="github" fill />
+          </Link>
+          <Link
+            className={styles.footer_icon}
+            href="https://gomdol97.tistory.com/"
+          >
+            <Image src="/icon/tistory.svg" alt="github" fill />
+          </Link>
+        </section>
       </footer>
     </div>
   );
