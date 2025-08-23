@@ -21,3 +21,34 @@ main {
     height: 100dvh;
   }
 }
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  .main1_left {
+    .main_title {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .main_pre {
+      font-size: 1rem;
+    }
+  }
+
+  .main1_right {
+    width: 30%;
+    .profile_img {
+      width: 30vw;
+      height: 30vw;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: azure;
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}

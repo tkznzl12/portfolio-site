@@ -1,7 +1,7 @@
 .header_container {
   height: 60px;
   background-color: darkgrey;
-  width: 100%;
+  padding: 0 30px;
   /* position: absolute;
   left: 0;
   top: 0; */
@@ -12,7 +12,7 @@
   display: flex;
   list-style-type: none;
   gap: 2rem;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   margin: 0;
 }
