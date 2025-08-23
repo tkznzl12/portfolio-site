@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Icon_Github from "./icon/github.svg";
 import Link from "next/link";
+import AboutMe from "./pages/aboutMe/aboutMe";
+import Experience from "./pages/experience/experience";
 
 export default function Home() {
   return (
@@ -24,14 +26,22 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.main_section}>
-          <p>&quot;한 걸음부터, 모든 변화가 시작된다.&quot;</p>
+          <p className={styles.section_title}>About Me</p>
+
+          <AboutMe />
         </section>
         <section className={styles.main_section}>
-          <p>경력</p>
+          <p className={styles.section_title}>Skills</p>
           <pre>신성ICT</pre>
           <pre>샘랩</pre>
         </section>
-        <section className={styles.main_section}>프로젝트</section>
+        <section className={styles.main_section}>
+          <p className={styles.section_title}>Experience</p>
+          <Experience />
+        </section>
+        <section className={styles.main_section}>
+          <p className={styles.section_title}>Projects</p>
+        </section>
       </main>
       <footer className={styles.footer}>
         깃허브, 블로그 연동 버튼, 이메일 Icons by Icons8(링크연동하기)
