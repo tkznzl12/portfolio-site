@@ -40,10 +40,13 @@ http://scripts.sil.org/OFL
 }
 
 :root {
-  background-color: aquamarine;
-  margin: 0;
-  padding: 0;
+  --primary: oklch(0.65 0.15 220);
+  --secondary: #d9f4fd;
+  --page-background: #fafbff;
+  --border-color: oklch(0.9 0.02 220);
 }
+
+:root,
 body,
 pre {
   margin: 0;
