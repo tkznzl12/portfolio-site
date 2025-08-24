@@ -44,6 +44,7 @@ http://scripts.sil.org/OFL
   --secondary: #d9f4fd;
   --page-background: #fafbff;
   --border-color: oklch(0.9 0.02 220);
+  --max-width: 960px;
 }
 
 :root,

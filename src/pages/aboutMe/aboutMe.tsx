@@ -1,13 +1,46 @@
+import { DevSkill } from "@/data/arrayData";
 import styles from "./aboutMe.module.css";
 
 export default function AboutMe() {
+  console.log(DevSkill);
   return (
     <div className={styles.text_section}>
-      <p>&quot;한 걸음부터, 모든 변화가 시작된다.&quot;</p>
-      여러 사람들과의 협업을 통해 소통 능력을 향상시키고 사람들과의 관계를 더욱
-      중요시하게 되었습니다. 작은 일에도 책임감을 가지고 일을 처리하는 습관을
-      길러나갔습니다. 주어진 업무에 최선을 다하며 팀원들과의 협력을 중시하는
-      사람입니다. 현재의 능력과 열정을 바탕으로 새로운 도전을 준비 중입니다.
+      {/* 자기소개 */}
+      <div className={styles.about_me_component}>
+        <div className={styles.introduce_text}>
+          <p>안녕하세요. 프론트엔드 개발자 정수진입니다. </p>
+          <p>
+            협업 과정에서 이해하기 쉬운 코드를 작성하며 소통 능력을 키웠고,
+            책임감 있게 프로젝트를 완수하는 것을 중요하게 생각합니다. <br />
+          </p>
+          <p>
+            유지보수성과 사용자 친화성을 고려하며, 어떤 기능이든 안정적으로
+            구현할 수 있도록 꾸준히 노력하고 있습니다.
+          </p>
+        </div>
+        {/* 개발철학 */}
+        <div className={styles.dev_philosophy}>
+          <p className={styles.dev_philosophy_title}>개발 철학</p>
+          <div>
+            <p>• 이해하기 쉽고 유지보수 가능한 코드를 작성합니다.</p>
+            <p>• 협업 과정에서 적극적으로 소통하며 팀과 함께 성장합니다.</p>
+            <p>
+              • 새로운 기술을 학습하고 프로젝트에 적용하며 역량을 향상시킵니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* 사용기술 */}
+      <div className={styles.skills}>
+        <p className={styles.skill_title}>Skills</p>
+        <div className={styles.skill_list}>
+          {DevSkill.map((skill: string, index: number) => (
+            <div key={`dev_skill_${index}`} className={styles.skill_icon}>
+              {skill}
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

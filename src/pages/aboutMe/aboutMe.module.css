@@ -1,3 +1,64 @@
+.about_me_component {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
 .text_section {
   text-align: center;
+
+  .introduce_text {
+    text-align: start;
+
+    margin: 0 auto;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.dev_philosophy {
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--border-color);
+  padding: 1rem;
+  width: 70%;
+  text-align: start;
+
+  .dev_philosophy_title {
+    font-weight: 700;
+    line-height: 2;
+  }
+  p {
+    line-height: 2;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+}
+
+.skills {
+  margin-top: 4rem;
+  .skill_title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .skill_list {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    .skill_icon {
+      font-size: 0.875rem;
+      width: fit-content;
+      border-radius: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      background-color: var(--secondary);
+      color: rgb(56, 54, 54);
+    }
+  }
 }

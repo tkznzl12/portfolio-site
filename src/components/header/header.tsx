@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header_container}>
       <ul className={styles.header_list}>
         <li>About Me</li>
-        <li>Skills</li>
+        {/* <li>Skills</li> */}
         <li>Experience</li>
         <li>Projects</li>
         <li>Portfolio</li>
