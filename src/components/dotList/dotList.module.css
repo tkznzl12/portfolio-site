@@ -1,9 +1,11 @@
 .dot_list_component {
   display: flex;
+  justify-content: center;
   gap: 1rem;
-
+  width: 80%;
+  margin: 0 auto 2rem;
   .dot_list_left {
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
