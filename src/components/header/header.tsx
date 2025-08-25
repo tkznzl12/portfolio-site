@@ -8,7 +8,8 @@ export default function Header() {
         {/* <li>Skills</li> */}
         <li>Experience</li>
         <li>Projects</li>
-        <li>Portfolio</li>
+        {/* <li>Portfolio</li> */}
+        <li>Contact</li>
       </ul>
     </header>
   );
