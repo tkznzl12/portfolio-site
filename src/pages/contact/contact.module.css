@@ -1,0 +1,14 @@
+.contact_component {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  p {
+    font-size: 1.25rem;
+  }
+}

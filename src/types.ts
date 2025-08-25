@@ -3,6 +3,12 @@ type Work = {
   workExplan: string[];
 };
 
+type Job = {
+  projectName: string;
+  skill: string[];
+  job: { title: string; detail: string[] }[];
+};
+
 export interface ProjectDataTypes {
   projectName: string;
   period: string;
@@ -11,4 +17,12 @@ export interface ProjectDataTypes {
   skill: string[];
   work: Work[];
   image: string[];
+}
+
+export interface ExperienceTypes {
+  companyName: string;
+  period: string;
+  career: string;
+  position: string;
+  mainJob: Job[];
 }

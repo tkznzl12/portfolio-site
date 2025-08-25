@@ -1,10 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Icon_Github from "./icon/github.svg";
-import Link from "next/link";
 import AboutMe from "../pages/aboutMe/aboutMe";
 import Experience from "../pages/experience/experience";
-import Projects from "@/pages/Projects/projects";
+import Projects from "@/pages/projects/projects";
+import Contact from "@/pages/contact/contact";
 
 export default function Home() {
   return (
@@ -41,12 +40,12 @@ export default function Home() {
         </section>
         <section className={styles.main_section}>
           <p className={styles.section_title}>Contact</p>
+          <Contact />
         </section>
       </main>
       <footer className={styles.footer}>
-        깃허브, 블로그 연동 버튼, 이메일 Icons by Icons8(링크연동하기)
         <section className={styles.footer_icons}>
-          <Link
+          {/* <Link
             className={styles.footer_icon}
             href="https://github.com/tkznzl12"
           >
@@ -57,7 +56,7 @@ export default function Home() {
             href="https://gomdol97.tistory.com/"
           >
             <Image src="/icon/tistory.svg" alt="github" fill />
-          </Link>
+          </Link> */}
         </section>
       </footer>
     </div>

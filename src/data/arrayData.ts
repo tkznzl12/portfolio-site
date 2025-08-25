@@ -8,8 +8,16 @@ export const WorkInfo = [
     mainJob: [
       {
         projectName: "외주 사이트 프론트 작업",
-        skill:
-          "TypeScript / React / Next.js / CSS / styled-components / Chart.js / Swiper / Nivo",
+        skill: [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "CSS",
+          "styled-components",
+          "Chart.js",
+          "Swiper",
+          "Nivo",
+        ],
         job: [
           {
             title: "원모바일",
@@ -52,7 +60,7 @@ export const WorkInfo = [
     mainJob: [
       {
         projectName: "공간샘스터디카페(렛미업) 유지보수 및 프론트 개발",
-        skill: "JavaScript / React / CSS / Cuba Template / Electron",
+        skill: ["JavaScript", "React", "CSS", "Cuba Template", "Electron"],
         job: [
           {
             title: "렛미업 백오피스 유지보수 및 개발",
