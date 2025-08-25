@@ -116,7 +116,7 @@ export const ProjectData = [
     explanation:
       "대한민국의 여행지 소개 및 코스만들기를 통하여 효율적인 여행계획을 짜는 웹사이트",
     part: "프론트 작업 및 로고 디자인 작업",
-    skill: "HTML, CSS, JSP, JavaScript, Thymeleaf",
+    skill: ["HTML", "CSS", "JSP", "JavaScript", "Thymeleaf"],
     work: [
       {
         title: "관광지 메인 작업",
@@ -147,7 +147,7 @@ export const ProjectData = [
     period: "2020.01 - 2020.12",
     explanation: "대한민국의 홈스테이 웹사이트",
     part: "프론트 작업 및 로고 디자인 작업",
-    skill: "JavaScript, React, Material-UI",
+    skill: ["JavaScript", "React", "Material-UI"],
     work: [
       {
         title: "메인페이지 작업",
@@ -163,7 +163,15 @@ export const ProjectData = [
     period: "2020.11 - 2020.12",
     explanation: "제주도 여행지 소개와 일정을 계획할 수 있는 웹사이트",
     part: "프론트 작업 및 로고, 사이트 디자인 작업",
-    skill: "Java, JavaScript, HTML, CSS, Bootstrap, jQuery, Material-UI",
+    skill: [
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "jQuery",
+      "Material-UI",
+    ],
     work: [
       {
         title: "메인페이지 작업",

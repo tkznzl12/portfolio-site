@@ -1,3 +1,4 @@
+import PeriodBox from "../periodBox/periodBox";
 import styles from "./dotList.module.css";
 
 export default function DotList() {
@@ -11,7 +12,7 @@ export default function DotList() {
       <div className={styles.dot_list_right}>
         <div className={styles.content_top}>
           <p className={styles.company_name}>신성ICT</p>
-          <div className={styles.company_date}>2023.12 - 2024.09</div>
+          <PeriodBox date="2023.12 - 2024.09" />
         </div>
         <div className={styles.content_middle}>
           <p className={styles.work_title}>프론트엔드 개발자</p>

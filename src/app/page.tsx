@@ -4,6 +4,7 @@ import Icon_Github from "./icon/github.svg";
 import Link from "next/link";
 import AboutMe from "../pages/aboutMe/aboutMe";
 import Experience from "../pages/experience/experience";
+import Projects from "@/pages/Projects/projects";
 
 export default function Home() {
   return (
@@ -36,6 +37,10 @@ export default function Home() {
         </section>
         <section className={styles.main_section}>
           <p className={styles.section_title}>Projects</p>
+          <Projects />
+        </section>
+        <section className={styles.main_section}>
+          <p className={styles.section_title}>Contact</p>
         </section>
       </main>
       <footer className={styles.footer}>

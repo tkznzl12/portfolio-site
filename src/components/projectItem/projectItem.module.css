@@ -1,0 +1,43 @@
+.project_component {
+  width: 50vw;
+  border-radius: 1rem;
+  border: 1.5px solid var(--border-color);
+  padding: 2rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  .project_name {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+
+.use_skills {
+  display: flex;
+  gap: 0.5rem;
+  .skill_box {
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    background-color: var(--secondary);
+    padding: 0.1rem 0.5rem;
+    color: rgb(116, 114, 114);
+  }
+}
+
+.content {
+  font-size: 0.875rem;
+  p {
+    line-height: 1.5;
+  }
+  .explanation {
+    margin-top: 0.5rem;
+    color: rgb(116, 114, 114);
+  }
+  .part {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+  }
+}

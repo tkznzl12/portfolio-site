@@ -1,0 +1,8 @@
+.period_box {
+  width: fit-content;
+  border-radius: 0.25rem;
+  border: 0.5px solid grey;
+  font-size: 0.625rem;
+  padding: 0.25rem;
+  color: rgb(110, 107, 107);
+}

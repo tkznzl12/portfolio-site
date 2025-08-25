@@ -2,7 +2,6 @@ import { DevSkill } from "@/data/arrayData";
 import styles from "./aboutMe.module.css";
 
 export default function AboutMe() {
-  console.log(DevSkill);
   return (
     <div className={styles.text_section}>
       {/* 자기소개 */}
@@ -22,10 +21,10 @@ export default function AboutMe() {
         <div className={styles.dev_philosophy}>
           <p className={styles.dev_philosophy_title}>개발 철학</p>
           <div>
-            <p>• 이해하기 쉽고 유지보수 가능한 코드를 작성합니다.</p>
-            <p>• 협업 과정에서 적극적으로 소통하며 팀과 함께 성장합니다.</p>
+            <p>• 이해하기 쉽고 유지보수 가능한 코드를 작성하기</p>
+            <p>• 협업 과정에서 적극적으로 소통하며 팀과 함께 성장하기</p>
             <p>
-              • 새로운 기술을 학습하고 프로젝트에 적용하며 역량을 향상시킵니다.
+              • 새로운 기술을 학습하고 프로젝트에 적용하며 역량을 향상시키기
             </p>
           </div>
         </div>
