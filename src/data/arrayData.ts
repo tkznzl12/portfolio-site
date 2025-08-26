@@ -4,114 +4,68 @@ export const WorkInfo = [
     companyName: "신성ICT",
     period: "2023.12 - 2024.10",
     career: "9개월",
-    position: "개발팀 사원",
+    position: "프론트엔드 개발 / 사원",
     mainJob: [
       {
-        projectName: "외주 사이트 프론트 작업",
-        skill: [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "CSS",
-          "styled-components",
-          "Chart.js",
-          "Swiper",
-          "Nivo",
-        ],
+        projectName: "외주 사이트 개발",
         job: [
-          {
-            title: "원모바일",
-            detail: [
-              "메인 페이지 퍼블리싱 및 UI 구성 (반응형 지원)",
-              "모달 컴포넌트 제작 및 사용자 인터랙션 개선",
-              "웰컴페이먼츠 연동을 통한 결제 기능 구현",
-              "휴대폰 상품 소개 및 구매 페이지 제작으로 사용자 경험 향상",
-            ],
-          },
-          {
-            title: "에이트리 인베스트먼트, 루카스 엔터테인먼트",
-            detail: [
-              "사이트 전체 퍼블리싱 및 프론트엔드 개발 (Next.js 기반, 2주 내 완료)",
-            ],
-          },
-          {
-            title: "더마당",
-            detail: [
-              "콘서트 예매 결제 페이지 개발 (Next.js 기반, 기여도 80%)",
-              "PG 연동을 통한 안정적인 결제 플로우 구축",
-            ],
-          },
-          {
-            title: "신성ICT 홈페이지",
-            detail: [
-              "연도별 인터랙션 컴포넌트 개발",
-              "웹사이트 초기 레이아웃 설계 및 구현",
-            ],
-          },
+          "원모바일 : 메인 페이지 퍼블리싱, 모달/상품구매/결제 기능 구현 (웰컴페이먼츠 연동)",
+          "에이트리 인베스트먼트 & 루카스 엔터테인먼트 : Next.js 기반 사이트 전체 개발 (2주 내 완료)",
+          "더마당 : 콘서트 예매 결제 페이지 개발, 안정적 결제 플로우 구축",
+          "신성ICT 홈페이지 : 연도별 인터랙션 컴포넌트, 초기 레이아웃 설계",
         ],
       },
+    ],
+    skill: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "CSS",
+      "styled-components",
+      "Chart.js",
+      "Swiper",
+      "Nivo",
     ],
   },
   {
     companyName: "SAMLAB",
     period: "2021.04 - 2023.06",
     career: "2년 3개월",
-    position: "개발팀 사원",
+    position: "프론트엔드 개발 / 사원",
     mainJob: [
       {
-        projectName: "공간샘스터디카페(렛미업) 유지보수 및 프론트 개발",
-        skill: ["JavaScript", "React", "CSS", "Cuba Template", "Electron"],
+        projectName: "공간샘스터디카페(렛미업)",
         job: [
-          {
-            title: "렛미업 백오피스 유지보수 및 개발",
-            detail: [
-              "관리자·고객 페이지 신규 기능 개발 및 유지보수",
-              "채널톡 연동으로 고객 상담 자동화 지원",
-              "세미나실 예약 페이지 개발 (UI 개선)",
-              "Hecto·TossPayments 연동을 통한 온라인 결제 기능 구현",
-              "객체 변경·이동이 가능한 맵 뷰어 제작",
-              "React 기반 데이터 그래프 출력 기능 구현",
-              "AJAX 기반 API 연동을 통한 CRUD 프론트 개발",
-            ],
-          },
-          {
-            title: "렛미업 키오스크 유지보수 및 개발",
-            detail: [
-              "세미나실 예약 페이지 개발",
-              "DaouVP, KIS, KCP 연동을 통한 결제 플로우 개선",
-              "키오스크 메인 UI 및 사용자 흐름 개편",
-              "전국 약 90개 지점의 키오스크 유지보수 담당",
-            ],
-          },
+          "관리자/고객 페이지 기능 개발 및 유지보수",
+          "채널톡 연동 상담 자동화, 세미나실 예약 페이지 개선",
+          "PG사 결제 연동 (Hecto, TossPayments)",
+          "객체 이동/변경 가능한 맵 뷰어 제작",
+          "React 기반 데이터 그래프 출력 기능 구현",
+          "전국 90개 지점 키오스크 유지보수 및 결제 개선",
         ],
       },
       {
-        projectName: "클래스업(학원관리) 프론트 개발",
-        skill: "JavaScript / TypeScript / React / Next.js / CSS",
-        job: [
-          {
-            title: "클래스업 백오피스 개발",
-            detail: [
-              "메인 랜딩 페이지 제작",
-              "샘포인트몰 페이지 제작",
-              "관리자 페이지 내 다양한 기능 구현 및 유지보수",
-            ],
-          },
-        ],
+        projectName: "클래스업(학원관리)",
+        job: ["랜딩/포인트몰 페이지, 관리자 페이지 기능 개발"],
       },
       {
-        projectName: "샘랩 랜딩페이지 작업",
-        skill: "JavaScript / React / Gatsby / CSS / Strapi",
+        projectName: "샘랩 랜딩페이지",
         job: [
-          {
-            title: "샘랩 웹사이트 랜딩페이지 제작 및 유지보수",
-            detail: [
-              "공간디자인, SpaceBusiness, Newsroom 페이지 제작",
-              "SEO(검색 엔진 최적화) 작업을 통한 검색 노출 개선",
-            ],
-          },
+          "SpaceBusiness, Newsroom 페이지 개발, SEO 최적화, Gatsby+Strapi 기반 유지보수",
         ],
       },
+    ],
+    skill: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Gatsby",
+      "CSS",
+      "Cuba Template",
+      "Electron",
+      "strapi",
     ],
   },
 ];

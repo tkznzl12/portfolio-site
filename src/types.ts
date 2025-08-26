@@ -5,8 +5,7 @@ type Work = {
 
 type Job = {
   projectName: string;
-  skill: string[];
-  job: { title: string; detail: string[] }[];
+  job: string[];
 };
 
 export interface ProjectDataTypes {
@@ -25,4 +24,5 @@ export interface ExperienceTypes {
   career: string;
   position: string;
   mainJob: Job[];
+  skill: string[];
 }

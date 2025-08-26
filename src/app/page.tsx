@@ -10,19 +10,22 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <section className={`${styles.main_section} ${styles.main1}`}>
-          <div className={styles.main1_left}>
-            <p className={styles.sub_title}>
-              &quot;한 걸음부터, 모든 변화가 시작된다.&quot;
-            </p>
-            <p className={styles.main_title}>안녕하세요, 정수진입니다.</p>
-            <pre className={styles.main_pre}>
-              유지보수성과 사용자 친화성을 중시하며,
-              <br /> 새로운 기능도 책임감 있게 구현하는 프론트엔드 개발자입니다.
-            </pre>
-          </div>
-          <div className={styles.main1_right}>
-            <div className={styles.profile_img}>
-              <Image src="/images/profile.png" alt="profile" fill />
+          <div className={styles.main1_container}>
+            <div className={styles.main1_left}>
+              <p className={styles.sub_title}>
+                &quot;한 걸음부터, 모든 변화가 시작된다.&quot;
+              </p>
+              <p className={styles.main_title}>안녕하세요, 정수진입니다.</p>
+              <pre className={styles.main_pre}>
+                유지보수성과 사용자 친화성을 중시하며,
+                <br /> 새로운 기능도 책임감 있게 구현하는 프론트엔드
+                개발자입니다.
+              </pre>
+            </div>
+            <div className={styles.main1_right}>
+              <div className={styles.profile_img}>
+                <Image src="/images/profile.png" alt="profile" fill />
+              </div>
             </div>
           </div>
         </section>
