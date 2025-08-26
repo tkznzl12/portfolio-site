@@ -2,8 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import AboutMe from "../pages/aboutMe/aboutMe";
 import Experience from "../pages/experience/experience";
-import Projects from "@/pages/projects/projects";
 import Contact from "@/pages/contact/contact";
+import Projects from "@/pages/projects/projects";
 
 export default function Home() {
   return (
