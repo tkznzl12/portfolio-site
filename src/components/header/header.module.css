@@ -1,6 +1,6 @@
 .header_container {
   height: 60px;
-  background-color: darkgrey;
+  /* background-color: rgba(0, 0, 0, 0.1); */
   /* padding: 0 30px; */
   /* width: var(--ma); */
   /* position: absolute;
@@ -18,4 +18,6 @@
   align-items: center;
   margin: 0 auto;
   padding: 0;
+  font-weight: 600;
+  color: gray;
 }
