@@ -29,19 +29,19 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.main_section}>
+        <section id="aboutMe" className={styles.main_section}>
           <p className={styles.section_title}>About Me</p>
           <AboutMe />
         </section>
-        <section className={styles.main_section}>
+        <section id="experience" className={styles.main_section}>
           <p className={styles.section_title}>Experience</p>
           <Experience />
         </section>
-        <section className={styles.main_section}>
+        <section id="project" className={styles.main_section}>
           <p className={styles.section_title}>Projects</p>
           <Projects />
         </section>
-        <section className={styles.main_section}>
+        <section id="contact" className={styles.main_section}>
           <p className={styles.section_title}>Contact</p>
           <Contact />
         </section>

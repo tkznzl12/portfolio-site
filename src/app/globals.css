@@ -39,6 +39,10 @@ http://scripts.sil.org/OFL
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: oklch(0.65 0.15 220);
   --secondary: #d9f4fd;
