@@ -85,3 +85,12 @@
     }
   }
 }
+
+/* 모바일 */
+@media (max-width: 767px) {
+  .dot_list_component {
+    .dot_list_left {
+      display: none;
+    }
+  }
+}

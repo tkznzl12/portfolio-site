@@ -59,3 +59,24 @@ pre {
 p {
   margin: 0;
 }
+
+/* 태블릿 */
+@media (max-width: 1024px) and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  :root {
+    --max-width: 700px;
+  }
+}
+
+/* 모바일 */
+@media (max-width: 767px) {
+  html {
+    font-size: 3.5vw;
+  }
+
+  :root {
+    --max-width: 80vw;
+  }
+}

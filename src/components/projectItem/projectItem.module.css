@@ -17,6 +17,7 @@
 .use_skills {
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
   .skill_box {
     font-size: 0.75rem;
     border-radius: 0.25rem;

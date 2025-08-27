@@ -18,8 +18,8 @@ export default function Home() {
               <p className={styles.main_title}>안녕하세요, 정수진입니다.</p>
               <pre className={styles.main_pre}>
                 유지보수성과 사용자 친화성을 중시하며,
-                <br /> 새로운 기능도 책임감 있게 구현하는 프론트엔드
-                개발자입니다.
+                <br />
+                새로운 기능도 책임감 있게 구현하는 프론트엔드 개발자입니다.
               </pre>
             </div>
             <div className={styles.main1_right}>

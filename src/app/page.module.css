@@ -36,8 +36,6 @@ main {
   }
 
   .main1 {
-    /* max-width: 100%;
-    background-color: var(--page-background); */
     .main1_container {
       max-width: var(--max-width);
       display: flex;
@@ -55,6 +53,7 @@ main {
         .sub_title {
           font-size: 1.2rem;
           line-height: 2rem;
+          font-weight: 500;
           color: #555;
         }
         .main_pre {
@@ -72,10 +71,39 @@ main {
           position: relative;
           border-radius: 50%;
           overflow: hidden;
-          background-color: azure;
+          background-color: var(--secondary);
           img {
             object-fit: contain;
           }
+        }
+      }
+    }
+  }
+}
+
+/* 모바일 */
+@media (max-width: 767px) {
+  main {
+    .main1 {
+      .main1_container {
+        width: var(--max-width);
+        flex-direction: column !important;
+        .main1_left {
+          word-break: keep-all;
+          overflow-wrap: break-word;
+          .main_title {
+            margin-bottom: 3rem;
+          }
+
+          .main_pre {
+            max-width: 100%;
+            white-space: pre-wrap;
+          }
+        }
+
+        .main1_right {
+          width: var(--max-width);
+          height: var(--max-width);
         }
       }
     }

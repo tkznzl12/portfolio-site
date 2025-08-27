@@ -62,3 +62,20 @@
     }
   }
 }
+
+/* 모바일 */
+@media (max-width: 767px) {
+  .about_me_component {
+    flex-direction: column;
+  }
+  .dev_philosophy {
+    width: 100%;
+  }
+
+  .skills {
+    margin-bottom: 4rem;
+    .skill_list {
+      width: 100%;
+    }
+  }
+}

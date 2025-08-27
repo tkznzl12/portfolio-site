@@ -21,3 +21,11 @@
   font-weight: 600;
   color: gray;
 }
+
+/* 모바일 */
+@media (max-width: 767px) {
+  .header_list {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}
