@@ -38,3 +38,20 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .work_container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    border-right: none;
+  }
+  .work_content {
+    .media {
+      video {
+        width: 100%;
+      }
+    }
+  }
+}

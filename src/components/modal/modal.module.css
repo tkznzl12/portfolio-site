@@ -36,3 +36,25 @@
   left: 0;
   z-index: 2;
 }
+
+/* 모바일 */
+@media (max-width: 767px) {
+  .modal {
+    width: var(--max-width);
+    height: 80dvh;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    .close_btn {
+      right: 1rem;
+    }
+
+    .modal_content {
+      margin: 1rem;
+      overflow: scroll;
+      height: 75dvh;
+      overflow-x: hidden;
+    }
+  }
+}
