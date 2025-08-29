@@ -9,7 +9,7 @@ import WorkComponent from "@/components/workComponent/workComponent";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <WorkComponent />
+      {/* <WorkComponent /> */}
       <main className={styles.main}>
         <section className={`${styles.main_section} ${styles.main1}`}>
           <div className={styles.main1_container}>

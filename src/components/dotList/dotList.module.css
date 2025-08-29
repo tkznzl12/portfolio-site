@@ -61,7 +61,7 @@
         display: flex;
         gap: 0.25rem;
         flex-wrap: wrap;
-        margin: 1rem 0;
+        margin: 1rem 0 0.5rem;
         p {
           width: fit-content;
           font-size: 0.75rem;
@@ -84,6 +84,19 @@
       }
     }
   }
+}
+
+.skill_and_modal {
+}
+.modal_btn {
+  font-size: 0.8rem;
+  color: var(--primary);
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  cursor: pointer;
+  padding: 0;
 }
 
 /* 모바일 */

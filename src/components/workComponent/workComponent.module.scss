@@ -1,5 +1,9 @@
 .work_container {
   display: flex;
+  p {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
 }
 
 .sidebar {
