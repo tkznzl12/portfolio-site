@@ -1,0 +1,36 @@
+.work_container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  border-right: 1px solid var(--border-color);
+  p {
+    font-size: 0.875rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+.work_content {
+  padding: 0.5rem;
+  .work_title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 1rem;
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+  }
+  .work_data {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .media {
+    video {
+      width: 50%;
+    }
+  }
+}

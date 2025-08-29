@@ -26,3 +26,14 @@ export interface ExperienceTypes {
   mainJob: Job[];
   skill: string[];
 }
+
+export interface CaseStudy {
+  title: string;
+  role: string;
+  techStack: string[];
+  situation: string;
+  tack: string;
+  action: string[];
+  result: string;
+  media?: string;
+}

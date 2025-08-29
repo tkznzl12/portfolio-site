@@ -4,10 +4,12 @@ import AboutMe from "../pages/aboutMe/aboutMe";
 import Experience from "../pages/experience/experience";
 import Contact from "@/pages/contact/contact";
 import Projects from "@/pages/projects/projects";
+import WorkComponent from "@/components/workComponent/workComponent";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <WorkComponent />
       <main className={styles.main}>
         <section className={`${styles.main_section} ${styles.main1}`}>
           <div className={styles.main1_container}>
