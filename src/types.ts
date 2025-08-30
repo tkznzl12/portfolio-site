@@ -28,6 +28,7 @@ export interface ExperienceTypes {
 }
 
 export interface CaseStudy {
+  type: number;
   title: string;
   role: string;
   techStack: string[];

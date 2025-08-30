@@ -18,7 +18,7 @@ export default function DotList({
     <>
       {openModal && (
         <Modal setOpen={setOpenModal}>
-          <WorkComponent />
+          <WorkComponent selectType={number} />
         </Modal>
       )}
       <div className={styles.dot_list_component}>
@@ -41,14 +41,13 @@ export default function DotList({
                   <p key={index}>{skill}</p>
                 ))}
               </div>
-              {number !== 1 && (
-                <button
-                  className={styles.modal_btn}
-                  onClick={() => setOpenModal(true)}
-                >
-                  개발노트
-                </button>
-              )}
+
+              <button
+                className={styles.modal_btn}
+                onClick={() => setOpenModal(true)}
+              >
+                개발노트
+              </button>
             </div>
             {workData.mainJob.map((project, index: number) => (
               <div className={styles.job_list} key={`project${index}`}>

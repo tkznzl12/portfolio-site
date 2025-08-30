@@ -1,8 +1,11 @@
 import { caseStudiesData } from "@/data/caseStudies";
 import styles from "./workComponent.module.scss";
 
-export default function WorkComponent() {
-  const sampleData = caseStudiesData[0];
+export default function WorkComponent({ selectType }: { selectType: number }) {
+  const sampleData = caseStudiesData.filter(
+    (item) => item.type === selectType
+  )[0];
+
   return (
     <div className={styles.work_container}>
       <div className={styles.sidebar}>
@@ -30,11 +33,13 @@ export default function WorkComponent() {
           ))}
         </div>
         <p className={styles.work_title}>결과</p>
-        <div className={styles.media}>
-          <video controls>
-            <source type="video/mp4" src={sampleData.media} />
-          </video>
-        </div>
+        {sampleData.media && (
+          <div className={styles.media}>
+            <video controls>
+              <source type="video/mp4" src={sampleData.media} />
+            </video>
+          </div>
+        )}
         <div>
           <p className={styles.work_data}>{sampleData.result}</p>
         </div>
