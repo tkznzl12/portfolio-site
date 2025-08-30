@@ -86,6 +86,7 @@ main {
   main {
     .main1 {
       .main1_container {
+        margin: 16vw 0;
         width: var(--max-width);
         flex-direction: column !important;
         .main1_left {
