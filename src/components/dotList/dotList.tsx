@@ -14,6 +14,7 @@ export default function DotList({
   number: number;
 }) {
   const [openModal, setOpenModal] = useState<boolean>(false);
+
   return (
     <>
       {openModal && (

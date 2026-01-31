@@ -7,7 +7,7 @@ export default function AboutMe() {
       {/* 자기소개 */}
       <div className={styles.about_me_component}>
         <div className={styles.introduce_text}>
-          <p>안녕하세요. 프론트엔드 개발자 정수진입니다. </p>
+          <p>안녕하세요. 개발자 정수진입니다. </p>
           <p>
             협업 과정에서 이해하기 쉬운 코드를 작성하며 소통 능력을 키웠고,
             책임감 있게 프로젝트를 완수하는 것을 중요하게 생각합니다. <br />
