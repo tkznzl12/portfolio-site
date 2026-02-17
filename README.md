@@ -11,4 +11,5 @@ Next.js (15v, appRouter), CSS, Type-script, figma AI, photoShop, netlify
 25.08.22 ~ ing
 
 ### 실행방법
+npm run start
 
