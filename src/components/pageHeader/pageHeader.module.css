@@ -1,0 +1,26 @@
+.page_header {
+  margin-bottom: 1.75rem;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-strong);
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  word-break: keep-all;
+}

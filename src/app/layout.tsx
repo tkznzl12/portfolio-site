@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "../components/header/header";
+import styles from "./layout.module.css";
+import Sidebar from "@/components/sidebar/sidebar";
 
 export const metadata: Metadata = {
   title: "Sujin Jung Portfolio",
@@ -30,9 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={``}>
-        <Header />
-        {children}
+      <body>
+        <Sidebar />
+        <div className={styles.content}>
+          <main className={styles.main}>{children}</main>
+          <footer className={styles.footer}>
+            © {new Date().getFullYear()} Sujin Jung. All rights reserved.
+          </footer>
+        </div>
       </body>
     </html>
   );

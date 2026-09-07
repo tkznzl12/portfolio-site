@@ -1,0 +1,13 @@
+.project_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .project_list {
+    grid-template-columns: 1fr;
+  }
+}

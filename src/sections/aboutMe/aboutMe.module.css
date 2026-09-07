@@ -1,0 +1,78 @@
+.about_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.card {
+  padding: 1.5rem;
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.card_wide {
+  grid-column: 1 / -1;
+}
+
+.card_title {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.introduce_text {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.introduce_text p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.introduce_text p + p {
+  margin-top: 0.85rem;
+}
+
+.philosophy_list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.philosophy_list li {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  word-break: keep-all;
+}
+
+.philosophy_list li::marker {
+  color: var(--primary);
+}
+
+.skill_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill_icon {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background-color: var(--secondary);
+  font-size: 0.8rem;
+  color: rgb(56, 54, 54);
+}
+
+@media (max-width: 900px) {
+  .about_grid {
+    grid-template-columns: 1fr;
+  }
+}
