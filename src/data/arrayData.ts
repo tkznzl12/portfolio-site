@@ -71,7 +71,38 @@ export const WorkInfo = [
 ];
 
 //프로젝트
-export const ProjectData = [
+export const ProjectData = [  {
+  projectName: "컬처픽",
+  period: "2026.05 - 2026.06",
+  explanation:
+    "국내 공연을 한번에 검색하고 AI로 자신의 취향에 맞춘 공연을 추천해주는 서비스",
+  part: "프론트 작업 및 로고 디자인 작업, 일정 관리, 기획",
+  skill: ["Vue.js", "tailwind", "TypeScript", "Pinia","Figma",],
+  work: [
+    {
+      title: "사이트 내 로고 디자인 작업",
+      workExplan: [
+        "공공데이터API(국문관광지정보)로 각 지역별로 화면에 출력되도록 구현",
+      ],
+    },
+    {
+      title: "Figma 기반의 디자인",
+      workExplan: [
+        "공공데이터API(국문관광지정보)의 관광지 정보를 불러와서 사진과 \n해당 관광지의 내용이 디자인에 맞게 출력되도록 구현",
+      ],
+    },
+    {
+      title: "관광지 리스트 작업",
+      workExplan: [
+        "지역별 검색시 우측에 각 지역을 선택할 수 있는 component를 구현",
+      ],
+    },
+  ],
+  image: [
+    "https://github.com/tkznzl12/main_portfolio/assets/74891586/4a5359d3-7f6f-4a80-9d6d-6867f2347eec",
+    "https://github.com/tkznzl12/main_portfolio/assets/74891586/bcdc6b73-2058-4e15-a139-c0118c3887ba",
+  ],
+},
   {
     projectName: "라온나드리",
     period: "2021.01 - 2021.02",
@@ -104,38 +135,7 @@ export const ProjectData = [
       "https://github.com/tkznzl12/main_portfolio/assets/74891586/bcdc6b73-2058-4e15-a139-c0118c3887ba",
     ],
   },
-  {
-    projectName: "라온나드리",
-    period: "2021.01 - 2021.02",
-    explanation:
-      "대한민국의 여행지 소개 및 코스만들기를 통하여 효율적인 여행계획을 짜는 웹사이트",
-    part: "프론트 작업 및 로고 디자인 작업",
-    skill: ["HTML", "CSS", "JSP", "JavaScript", "Thymeleaf"],
-    work: [
-      {
-        title: "관광지 메인 작업",
-        workExplan: [
-          "공공데이터API(국문관광지정보)로 각 지역별로 화면에 출력되도록 구현",
-        ],
-      },
-      {
-        title: "관광지 디테일 작업",
-        workExplan: [
-          "공공데이터API(국문관광지정보)의 관광지 정보를 불러와서 사진과 \n해당 관광지의 내용이 디자인에 맞게 출력되도록 구현",
-        ],
-      },
-      {
-        title: "관광지 리스트 작업",
-        workExplan: [
-          "지역별 검색시 우측에 각 지역을 선택할 수 있는 component를 구현",
-        ],
-      },
-    ],
-    image: [
-      "https://github.com/tkznzl12/main_portfolio/assets/74891586/4a5359d3-7f6f-4a80-9d6d-6867f2347eec",
-      "https://github.com/tkznzl12/main_portfolio/assets/74891586/bcdc6b73-2058-4e15-a139-c0118c3887ba",
-    ],
-  },
+ 
   {
     projectName: "라온홈스테이",
     period: "2020.01 - 2020.12",
