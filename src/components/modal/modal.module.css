@@ -2,7 +2,7 @@
   width: 85%;
   height: 80dvh;
   background-color: var(--page-background);
-  z-index: 3;
+  z-index: 32;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -34,7 +34,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 31;
 }
 
 /* 모바일 */
